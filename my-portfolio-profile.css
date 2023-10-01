@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Pixelify Sans';
+}
+section {
+    height: 500px;
+}
+.main-top-section {
+    background-image: url("all-img/top-banner\ \(1\).png");
+    background-repeat: no-repeat;
+}
+.name-rone {
+    font-family: 'poppins', sans-serif;
+    color: orange;
+}
+
+.left-div {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.left-div img {
+    width: 100%;
+}
