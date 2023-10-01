@@ -27,3 +27,25 @@ section {
 .left-div img {
     width: 100%;
 }
+.left-div button {
+    height: 40px;
+    width: 130px;
+    background-color: rgb(255, 112, 82);
+    border: none;
+    border-radius: 5px;
+}
+.left-div button a {
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.left-div button:hover {
+    background-color: darkblue;
+    color: rgb(0, 0, 0);
+    border: 1px solid green;
+}
+.left-div button a:hover {
+    color: black;
+}
