@@ -18,6 +18,9 @@ section {
     color: orange;
 }
 
+.left-div p {
+    text-align: justify;
+}
 .left-div {
     width: 40%;
     margin-left: 5%;
@@ -30,7 +33,7 @@ section {
 .left-div button {
     height: 40px;
     width: 130px;
-    background-color: rgb(255, 112, 82);
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
     border: none;
     border-radius: 5px;
 }
@@ -41,11 +44,92 @@ section {
     font-size: 18px;
     font-weight: bold;
 }
-.left-div button:hover {
-    background-color: darkblue;
-    color: rgb(0, 0, 0);
-    border: 1px solid green;
+
+/* second-section */
+
+.second-div img {
+    width: 100%;
 }
-.left-div button a:hover {
-    color: black;
+
+.second-div p {
+    text-align: justify;
+}
+.second-div>h1 {
+    font-family: 'poppins', sans-serif;
+}
+.second-div {
+    width: 38%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.second-div a {
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.main-second-section {
+    margin-top: 80px;
+    background-image: url(all-img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* numbber of section three */
+.three-section {
+    background-image: url(all-img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.three-section>h1 {
+    margin-left: 38%;
+    font-family: 'poppins', sans-serif;
+}
+.three-div {
+    width: 40%;
+    height: 400px;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    border-left: 7px solid orangered;
+    box-shadow: 5px 7px 40px gray;
+    background-color: white;
+}
+.three-div h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 40px;
+}
+.three-div h2 {
+    color: orange;
+}
+.three-div2 {
+    width: 40%;
+    height: 400px;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue 100%, cyan 100%);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px gray;
+}
+.three-div2 h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 40px;
+}
+.three-div2 h2 {
+    color: orange;
+}
+
+        /* footer */
+footer {
+    margin-top: 100px;
+}
+footer p {
+    text-align: center;
+    color: #696969;
 }
